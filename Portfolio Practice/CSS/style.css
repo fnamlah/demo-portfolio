@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* overflow-x: hidden; */
+}
+
+body {
+  font-family: 'Raleway';
+  font-weight: 300;
+}
+
+body,
+html {
+  background-color: #2a2c3a;
+  color: #fff;
+}
+
+.header {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 4.4rem;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 4.4rem;
+}
+
+.main-nav {
+  display: flex;
+
+  gap: 4.8rem;
+  font-size: 2rem;
+  align-items: center;
+  align-content: center;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+
+  gap: 4.8rem;
+  font-size: 2rem;
+  align-items: center;
+  align-content: center;
+}
+
+/* Mobile */
+.btn-mobile-nav {
+  border: none;
+  background-color: none;
+  cursor: pointer;
+
+  display: none;
+}
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name='close-outline'] {
+  display: none;
+}
+
+.header-link:link,
+.header-link:visited {
+  color: #fff;
+  text-decoration: none;
+}
+.header-link:hover,
+.header-link:active {
+  color: #e9b44c;
+  cursor: pointer;
+  /* border-bottom: 1px solid #e9b44c;
+  transition: .2s ease-out; */
+}
+
+.grid--2-cols {
+  display: grid;
+  grid-template-columns: 1fr 8.8rem;
+}
+
+/* .main-header {
+  margin-left: 2.4rem;
+} */
+
+.social {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  align-content: center;
+  gap: 1.2rem;
+}
+
+footer {
+  max-width: 120rem;
+  margin-top: 8.6rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 4.4rem;
+}
+
+/* Style */
+.main-h1 {
+  font-size: 4.4rem;
+  margin-bottom: 1.8rem;
+}
+
+.name-tag {
+  color: #e9b44c;
+}
+
+.main-text {
+  font-size: 2.4rem;
+  margin-bottom: 1.8rem;
+}
+
+.main-btn {
+  background-color: #e9b44c;
+  color: #2a2c3a;
+  border-radius: 10rem;
+  padding: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: #2a2c3a;
+}
+
+.main {
+}
+.main-h1 {
+}
+.main-text {
+}
+
+.social-icon {
+  height: 3.6rem;
+  width: 3.6rem;
+  stroke: #fff;
+  text-align: center;
+}
+.social-button {
+  height: 4.4rem;
+  width: 4.4rem;
+}
+
+.linkedin-icon {
+  stroke: #2a2c3a;
+  /* padding: 1rem; */
+}
